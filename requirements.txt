@@ -1,0 +1,7 @@
+fastapi[Standard]
+pandas
+python-multipart
+xgboost
+numpy
+scikit-learn
+
