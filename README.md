@@ -10,6 +10,8 @@
 ## 📌 Project Overview
 House price predictor is a machine learning project for predicting house prices based on various features. It includes data analysis, feature engineering, model comparison, hyperparameter tuning, and deployment as a FastAPI app. The final model uses XGBoost regression (after tuning) and serves predictions through a containerized API.
 
+Raw, processed and machine learning-ready dataset available on [Kaggle](https://www.kaggle.com/datasets/sarveshdhond/house-price-predictor-dataset).
+
 ## 🔍 Data Analysis
 - Data Import & Cleaning: Loaded the dataset, checked for missing values, and standardized entries (e.g. cleaned city names). Mapped each city to its latitude/longitude. Dropped duplicate rows and renamed columns for consistency.
 - Feature Extraction: Split the date field into separate Year, Quarter, and Month features.
